@@ -1,0 +1,41 @@
+body{
+    margin: 0;
+    
+}
+section{
+    margin: 0;
+    background-color: #1c1b21;
+    display: flex;
+    height: 100vh;
+}
+.div_1{
+    width: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center; 
+    background-color:#292a2f
+}
+.div_1 img{
+    width: 60px;
+}
+.div_1 ul{
+    list-style: none;
+    padding: 0;
+}
+.div_1 ul li{
+    margin: 25px;
+}
+.div_1 svg{
+    fill: #52525c;
+    transition: all 0.5s linear;
+    opacity: 0.8;
+}
+.div_1 svg:hover{
+    opacity: 1.5;
+}
+.div_2 ul{
+    display: grid;
+    grid-template-columns: repeat(6, 150px);
+    list-style: none;
+}
